@@ -1,0 +1,58 @@
+_id: req_8bb06211e3d640fd8205b58e9c9aaa30
+type: Request
+parentId: fld_46dd41ba43ad466dab1e25b170fe2b7e
+modified: 1669588868575
+created: 1666105461128
+url: "{{ _.ocsingleauth
+  }}/MS/SeAcPoi/ServiceAccessPoint/RSSeAcPoiMngtAuthUserAMX/V1/Add"
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "source": "MiClaroCol",
+        "user": {
+            "active": true,
+            "emailone": "jonso18@demost.com",
+            "locale": "es-CO",
+            "loginname": [
+                "jonso18@demo.comxtx",
+                "3504735395xsx",
+                "1234xsx"
+            ],
+            "password": "Max123",
+            "phonenumberone": "null",
+            "userpreferredlanguage": "es-CO",
+            "timezone": "America/Bogota",
+            "creationsource": "MiClaroColombia",
+            "rfc": "CC 1234",
+            "userformattedname": "demo fabrica",
+            "usergivenname": "demo",
+            "userfamilyname": "fabrica",
+            "passwordfailedattemptscounter": 0,
+            "creationdate": "1652108171"
+        },
+        "parameters": [
+            {
+                "key": "Version",
+                "value": "Legacy",
+                "type": "java.lang.String"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_917a3e57ac0346a199809baae622a454
+authentication: {}
+metaSortKey: -1666210330897.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

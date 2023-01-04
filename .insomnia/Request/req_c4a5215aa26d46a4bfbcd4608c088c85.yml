@@ -1,0 +1,29 @@
+_id: req_c4a5215aa26d46a4bfbcd4608c088c85
+type: Request
+parentId: fld_f0ea0d1370ab4e48a7f8aca655b2e5e2
+modified: 1670425439396
+created: 1670249251357
+url: http://msprofpriactivation-nm-clarogaming-qa.apps.claro.co/MS/PRT/ProductOffering/RSMSPrOfPriActivation/V1/PostAprovitionalPK/postaprovisionalPK
+name: postaprovisionalPK
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "E_V_MSISDN": "3232902339",
+        "E_V_SNCODE": "8787"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670251863125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

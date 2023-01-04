@@ -1,0 +1,45 @@
+_id: req_dd5a442e994a4a42a4aa326ade00b80e
+type: Request
+parentId: fld_52ca02f8c59d4442964706349c1f36e5
+modified: 1671195152016
+created: 1666376053899
+url: "{{ _.ocexito }}/MS/CUS/CustomerPayment/RSCustomerPaymentPaymentOTP/v1/capture"
+name: Capture
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "TraceId": "50906070250134",
+        "ChannelName": "POS",
+        "PartnerCode": "32569249",
+        "Transaction": {
+            "Nut": "1234567",
+            "LocationId": "1234",
+            "TerminalId": "5678",
+            "TransactionId": "901233722452",
+            "TransactionDate": "2022-10-21T00:00:00",
+            "CashierId": "12345678901112134",
+            "Amount": 5000
+        },
+        "Customer": {
+            "ApprobationCode": "2675049",
+            "CustomerId": "14297996",
+            "DocumentType": 2,
+            "WalletId": "3204706706"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666376288809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

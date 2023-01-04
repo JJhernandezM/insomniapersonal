@@ -1,0 +1,33 @@
+_id: req_40b047df75e742bb8be9f396aa4e5bbf
+type: Request
+parentId: fld_96899875b0984a55a76b236571611a74
+modified: 1672003427795
+created: 1671195178429
+url: "\thttps://mssegmentlineaccsercomredis-nm-ivr-evolucion-aro-dev.apps.r05oo\
+  f71.eastus2.aroapp.io/MS/SVC/ServiceSpecCharacteristic/MSSeSpChaSegmentLineAc\
+  cSerCom/V1/getSegment"
+name: getSegment
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_73c046ef1af04c23993d2b5e0e4a8561
+    name: min
+    value: "3232902359"
+    description: ""
+    disabled: false
+  - id: pair_35d411c8f045403ea8bd853457e39a6f
+    name: identificacion
+    value: "14297996"
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1671195178429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_d8579f49291740c283e96fdcbac1d8be
+type: Request
+parentId: fld_a6672b20c4a54305a4faebf217a9bd69
+modified: 1670252358126
+created: 1670195959522
+url: "{{ _.local
+  }}/MS/PRT/ProductOffering/RSProductOfferingConsultPK/v1/getConsultPK"
+name: getConsultPK
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_f61be3f85a4a48d8a95e1c556d4d0d2b
+    name: SNCODE
+    value: "1331"
+    description: ""
+  - id: pair_ab94d02a0fa440e6845786bd8ead3ba1
+    name: MIN
+    value: "3204706706"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e761b9505e946de828fb9c9753391bd
+authentication: {}
+metaSortKey: -1670250529841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

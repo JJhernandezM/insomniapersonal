@@ -1,0 +1,34 @@
+_id: req_9a1577f4ae14425da655aeaf7e36bfc1
+type: Request
+parentId: fld_ced471198c7048cea43177b7cc7296a6
+modified: 1671636374692
+created: 1669589000597
+url: "{{ _.provi_fttxoc
+  }}/MS/SVC/ServiceConfiguration/MSSerConfNAPPtoProvi/V1/ActivateNAPPort"
+name: activateNAPPort
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"splitterName": "SuperColombiaSplitter",
+      "splitterPort": "Ouput01",
+      "targetPhysicalStatus ": "In Service",
+      "requestid": "1746354637",
+      "requestInitiator": "Onyx",
+      "propietario": "Claro"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669589000597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

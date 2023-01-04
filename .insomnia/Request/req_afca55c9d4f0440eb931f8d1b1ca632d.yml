@@ -1,0 +1,36 @@
+_id: req_afca55c9d4f0440eb931f8d1b1ca632d
+type: Request
+parentId: fld_ced471198c7048cea43177b7cc7296a6
+modified: 1669755858857
+created: 1669589305643
+url: "{{ _.provi_fttxoc
+  }}/MS/SVC/ServiceConfiguration/MSSerConfNAPPtoProvi/V1/ChangeNAPPort"
+name: changeNAPPort
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customerEdgeDeviceType": "Splitter",
+      "customerEdgeDeviceName": "CCEN0601",
+    	"oldcustomerEdgeDevicePort":"Output06",
+      "newCustomerEdgeDevicePort": "Output05",
+      "requestId": "1746354637",
+      "requestInitiator": "Onyx",
+      "oldCustomerEdgeDevicePortClientId":"CASTRO_PI671_PT671_CAJAM02",
+      "Propietario": "Claro"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669589305643
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

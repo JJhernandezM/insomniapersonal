@@ -1,0 +1,45 @@
+_id: req_3e37cea5b01d4fb1967897a1e1007a70
+type: Request
+parentId: fld_52ca02f8c59d4442964706349c1f36e5
+modified: 1666816466397
+created: 1666376226505
+url: "{{ _.ocexito }}/MS/CUS/CustomerPayment/RSCustomerPaymentPaymentOTP/v1/cancel"
+name: Cancel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "TraceId": "88866634233",
+        "ChannelName": "POS",
+        "PartnerCode": "32569249",
+        "Transaction": {
+            "Nut": "1234567",
+            "LocationId": "1234",
+            "TerminalId": "5678",
+            "TransactionId": "901233722",
+            "TransactionDate": "2022-10-21T00:00:00",
+            "CashierId": "123456789011121",
+            "Amount": 1000
+        },
+        "Customer": {
+            "VerificationCode": "000000000011",
+            "CustomerId": "14297996",
+            "DocumentType": 2,
+            "WalletId": "3204706706"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666376226505
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

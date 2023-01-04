@@ -1,0 +1,32 @@
+_id: env_1e5aaf93fd5d18d3955fecbcf9b1c8aa2326cb41
+type: Environment
+parentId: wrk_38cf8ebd56f04ba4af580d6acf62bb43
+modified: 1669761588538
+created: 1665768937937
+name: Base Environment
+data:
+  local: localhost:8080
+  ocsingleauth: http://msseacpoimngtauthuseramx-nm-identidad-qa.apps.claro.co
+  ocsinglesegment: http://mscairolecustomsegment-nm-identidad-qa.apps.claro.co
+  ocsinglePoi: http://msseacpoiassoservices-nm-identidad-qa.apps.claro.co
+  ocexito: https://mscuspaymotppayment-nm-paymentmethodotp-aro-qa.apps.r05oof71.eastus2.aroapp.io
+  ocRedmaestra: http://msentworkforcecpissff-nm-redmaestra-aro-dev.apps.r05oof71.eastus2.aroapp.io
+  catalog_ocp: http://msprs-attr-catalog-stock-omnprod.apps.t7bm85w2.eastus2.aroapp.io
+  catalog_local: localhost:3000
+  provi_fttxoc: http://msserconfnapptoprovi-nm-networkinventory-qa.apps.claro.co
+  feasib_fttxoc: http://msserconfnapptofeasib-nm-networkinventory-qa.apps.claro.co
+dataPropertyOrder:
+  "&":
+    - local
+    - ocsingleauth
+    - ocsinglesegment
+    - ocsinglePoi
+    - ocexito
+    - ocRedmaestra
+    - catalog_ocp
+    - catalog_local
+    - provi_fttxoc
+    - feasib_fttxoc
+color: null
+isPrivate: false
+metaSortKey: 1665768937937

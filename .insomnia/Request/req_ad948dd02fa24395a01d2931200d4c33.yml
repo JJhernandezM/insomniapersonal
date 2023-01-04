@@ -1,0 +1,31 @@
+_id: req_ad948dd02fa24395a01d2931200d4c33
+type: Request
+parentId: fld_46dd41ba43ad466dab1e25b170fe2b7e
+modified: 1666224965796
+created: 1666136428838
+url: "{{ _.ocsingleauth
+  }}/MS/SeAcPoi/ServiceAccessPoint/RSSeAcPoiMngtAuthUserAMX/V1/Delete"
+name: Delete
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_8784bcdf06b44641ad954a535159845f
+    name: userId
+    value: "16662249560582"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_917a3e57ac0346a199809baae622a454
+authentication: {}
+metaSortKey: -1666210330747.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

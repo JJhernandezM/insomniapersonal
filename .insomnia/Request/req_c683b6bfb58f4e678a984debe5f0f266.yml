@@ -1,0 +1,31 @@
+_id: req_c683b6bfb58f4e678a984debe5f0f266
+type: Request
+parentId: fld_46dd41ba43ad466dab1e25b170fe2b7e
+modified: 1668692866137
+created: 1666136115900
+url: "{{ _.ocsingleauth
+  }}/MS/SeAcPoi/ServiceAccessPoint/RSSeAcPoiMngtAuthUserAMX/V1/Lookup"
+name: Lookup
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_8784bcdf06b44641ad954a535159845f
+    name: userId
+    value: jonso18@demo.comxx
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_917a3e57ac0346a199809baae622a454
+authentication: {}
+metaSortKey: -1666210330797.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

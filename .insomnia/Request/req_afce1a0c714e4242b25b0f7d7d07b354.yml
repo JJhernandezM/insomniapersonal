@@ -1,0 +1,38 @@
+_id: req_afce1a0c714e4242b25b0f7d7d07b354
+type: Request
+parentId: fld_ced471198c7048cea43177b7cc7296a6
+modified: 1671639050872
+created: 1669589512823
+url: "{{
+  _.provi_fttxoc}}/MS/SVC/ServiceConfiguration/MSSerConfNAPPtoProvi/V1/Disconec\
+  tNAPPort"
+name: disconectNAPPort
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    "customerEdgeDeviceType": "Splitter",
+        "customerEdgeDeviceName": "CCEN06-01",
+        "customerEdgeDevicePort": "Output06",
+        "requestId": "1746354637",
+        "requestInitiator": "Onyx",
+        "clientId": "CASTRO_PI671_PT671_CAJAM02",
+        "propietario": "Claro"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669589512823
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

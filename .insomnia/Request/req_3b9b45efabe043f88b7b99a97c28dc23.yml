@@ -1,0 +1,46 @@
+_id: req_3b9b45efabe043f88b7b99a97c28dc23
+type: Request
+parentId: fld_ff3b8fb8a3e043c8b2b843c0f94d0c35
+modified: 1671734975143
+created: 1671574855236
+url: http://100.123.26.56:7001/api/resourceAssignment/v1/checkFeasibility/
+name: checkFeasibility
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"isReservationNeeded ": "Yes",
+        "customerEdgeDeviceType": "Sp",
+        "customerEdgeDeviceName": "Prueba6_01_01",
+        "reservationReleaseDate": "2023-01-01T09:20-05:00",
+        "requestId": "374",
+        "requestInitiator": "GDO",
+        "clientId": "10372850"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f59cbc714b784c7c95dc6ccb1d5830b4
+    disabled: false
+  - id: pair_235fe99bdba847e092a6ad17712820da
+    name: Accept-Encoding
+    value: gzip,deflate
+    description: ""
+    disabled: false
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sysadm
+  password: netcracker
+metaSortKey: -1671574855236
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

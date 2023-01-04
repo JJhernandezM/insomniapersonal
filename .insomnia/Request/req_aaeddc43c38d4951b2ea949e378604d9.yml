@@ -1,0 +1,30 @@
+_id: req_aaeddc43c38d4951b2ea949e378604d9
+type: Request
+parentId: fld_46dd41ba43ad466dab1e25b170fe2b7e
+modified: 1669588853225
+created: 1666207718873
+url: "{{ _.ocsingleauth
+  }}/MS/SeAcPoi/ServiceAccessPoint/RSSeAcPoiMngtAuthUserAMX/V1/Login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "jonso18@demo.comxx",
+        "password": "Max123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666210330947.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

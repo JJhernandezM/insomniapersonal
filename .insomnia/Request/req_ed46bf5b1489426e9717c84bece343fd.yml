@@ -1,0 +1,33 @@
+_id: req_ed46bf5b1489426e9717c84bece343fd
+type: Request
+parentId: fld_4fb81642db534150931dde5507692e82
+modified: 1669761618498
+created: 1669760267238
+url: "{{ _.feasib_fttxoc
+  }}/MS/SVC/ServiceConfiguration/MSSerConfNAPPtoFeasib/V1/ReleaseReservNAPPort"
+name: ReleaseReservNAPPort
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"reservationId": "9164371989",
+    	"requestId": "1746354637",
+    	"requestInitiator": "GDO",
+    	"clientId": "CASTRO_PI671_PT671_CAJAM02",
+    	"propietario": "Claro"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669760267238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

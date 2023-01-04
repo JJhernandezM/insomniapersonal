@@ -1,0 +1,32 @@
+_id: req_0e226e9c79a44d6aab6982ff741c4ae1
+type: Request
+parentId: fld_4fb81642db534150931dde5507692e82
+modified: 1672068621413
+created: 1669758804078
+url: "{{ _.feasib_fttxoc
+  }}/MS/SVC/ServiceConfiguration/MSSerConfNAPPtoFeasib/V1/AssignNAPPort"
+name: AssignNAPPort
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"reservationId":"9164371989",
+    	"requestId": "17463546372",
+    	"requestInitiator": "GDO",
+    	"clientId": "10139234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669758804078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

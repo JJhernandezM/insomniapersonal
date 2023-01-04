@@ -1,0 +1,48 @@
+_id: req_1b4a975f7e84408b9396cc306583e3f1
+type: Request
+parentId: fld_46dd41ba43ad466dab1e25b170fe2b7e
+modified: 1669588866549
+created: 1666135762199
+url: "{{ _.ocsingle
+  }}/MS/SeAcPoi/ServiceAccessPoint/RSSeAcPoiMngtAuthUserAMX/V1/Modify"
+name: Modify
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "source": "MiClaroCol",
+        "user": {
+    			  "id":"16661296031581",
+            "loginname": [
+                "jonso18@demo.com"
+            ]
+        },
+        "parameters": [
+    			{
+    				"key": "modifyUser",
+    				"value": "{\"userformattedname\":\"FDM\",\"usergivenname\":\"JFDM\",\"password\":\"ARG1234\"}",
+    				"type": "com.hp.sso.provisioning.entities.User"
+    			}, 
+          {
+                "key": "Version",
+                "value": "Legacy",
+                "type": "java.lang.String"
+           }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_917a3e57ac0346a199809baae622a454
+authentication: {}
+metaSortKey: -1666210330847.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

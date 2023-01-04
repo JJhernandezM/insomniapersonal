@@ -1,0 +1,37 @@
+_id: req_a3525a01ec6c402eb5f5380ce141160a
+type: Request
+parentId: fld_f67f0dc05cd24a09aa5fa587c7cb62fc
+modified: 1670431481959
+created: 1666215492533
+url: "{{ _.ocsinglePoi
+  }}/MS/SeAcPoi/ServiceAccessPoint/RSSeAcPoiAssoServices/V1/Get "
+name: Get
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_40cbf3855d5a4efc9c467ecf685d0dc6
+    name: min
+    value: "3204706706"
+    description: ""
+    disabled: true
+  - id: pair_f44790c8ad694627b6e0cdc500bf2086
+    name: type
+    value: CC
+    description: ""
+    disabled: false
+  - id: pair_d1d0bb659d60444bb9e4a0cd80e9fd69
+    name: document
+    value: "11375514"
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1666215492533
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

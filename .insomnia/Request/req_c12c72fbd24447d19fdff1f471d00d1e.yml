@@ -1,0 +1,37 @@
+_id: req_c12c72fbd24447d19fdff1f471d00d1e
+type: Request
+parentId: fld_4fb81642db534150931dde5507692e82
+modified: 1672068210913
+created: 1669757352799
+url: "{{ _.feasib_fttxoc
+  }}/MS/SVC/ServiceConfiguration/MSSerConfNAPPtoFeasib/V1/ReservNAPPort"
+name: ReservNAPPort
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isReservationNeeded ": "yes",
+        "customerEdgeDeviceType": "Splitter",
+        "customerEdgeDeviceName": "Prueba6_01_01",
+        "reservationReleaseDate": "2023-01-01T09:20-05:00",
+        "requestId": "374",
+        "requestInitiator": "GDO",
+        "clientId": "10372850"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dbbf16f31392450e8888097a84fd10b5
+authentication: {}
+metaSortKey: -1669757352799
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
