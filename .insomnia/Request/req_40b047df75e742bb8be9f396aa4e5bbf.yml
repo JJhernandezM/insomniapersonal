@@ -1,11 +1,11 @@
 _id: req_40b047df75e742bb8be9f396aa4e5bbf
 type: Request
 parentId: fld_96899875b0984a55a76b236571611a74
-modified: 1672003427795
+modified: 1673826051996
 created: 1671195178429
-url: "\thttps://mssegmentlineaccsercomredis-nm-ivr-evolucion-aro-dev.apps.r05oo\
-  f71.eastus2.aroapp.io/MS/SVC/ServiceSpecCharacteristic/MSSeSpChaSegmentLineAc\
-  cSerCom/V1/getSegment"
+url: "{{ _.local
+  }}/MS/SVC/ServiceSpecCharacteristic/MSSeSpChaSegmentLineAccSerCom/V1/getSegme\
+  nt"
 name: getSegment
 description: ""
 method: GET

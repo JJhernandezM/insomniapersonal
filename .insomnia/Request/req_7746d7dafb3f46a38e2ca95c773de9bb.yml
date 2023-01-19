@@ -1,0 +1,31 @@
+_id: req_7746d7dafb3f46a38e2ca95c773de9bb
+type: Request
+parentId: fld_456688a1c11149dbaf8f401cda618609
+modified: 1674134952154
+created: 1674134898170
+url: "{{ _.mssegmentlineaccrrRedis
+  }}/MS/SVC/ServiceSpecCharacteristic/MSSeSpChaSegmentLineAccRR/V1/getAccountDa\
+  ta"
+name: getAccountData
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_17de52460135472bbc523e6793c6c6ee
+    name: valorConsulta
+    value: "93784"
+    description: ""
+  - id: pair_66cc4f2a1b0648f1a05553f5b254c46e
+    name: tipoConsulta
+    value: SU
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1674134898170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

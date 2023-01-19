@@ -1,0 +1,27 @@
+_id: req_e61fc5f96c0a48c38e006152de6ac196
+type: Request
+parentId: fld_456688a1c11149dbaf8f401cda618609
+modified: 1674134517449
+created: 1674134402418
+url: "{{ _.mssegmentlineaccrrRedis
+  }}/MS/SVC/ServiceSpecCharacteristic/MSSeSpChaSegmentLineAccRR/V1/getAccountAt\
+  tribute"
+name: getAccountAttribute
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_8d2ea84cdde841038f544aa4d938ec59
+    name: cuenta
+    value: "63243789"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1674134402418
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: env_1e5aaf93fd5d18d3955fecbcf9b1c8aa2326cb41
 type: Environment
 parentId: wrk_38cf8ebd56f04ba4af580d6acf62bb43
-modified: 1669761588538
+modified: 1674140337728
 created: 1665768937937
 name: Base Environment
 data:
@@ -15,6 +15,7 @@ data:
   catalog_local: localhost:3000
   provi_fttxoc: http://msserconfnapptoprovi-nm-networkinventory-qa.apps.claro.co
   feasib_fttxoc: http://msserconfnapptofeasib-nm-networkinventory-qa.apps.claro.co
+  mssegmentlineaccrrRedis: http://mssegmentlineaccrr-nm-ivr-evolucion-aro-dev.apps.r05oof71.eastus2.aroapp.io
 dataPropertyOrder:
   "&":
     - local
@@ -27,6 +28,7 @@ dataPropertyOrder:
     - catalog_local
     - provi_fttxoc
     - feasib_fttxoc
+    - mssegmentlineaccrrRedis
 color: null
 isPrivate: false
 metaSortKey: 1665768937937

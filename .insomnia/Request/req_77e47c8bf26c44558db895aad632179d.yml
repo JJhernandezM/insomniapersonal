@@ -1,0 +1,31 @@
+_id: req_77e47c8bf26c44558db895aad632179d
+type: Request
+parentId: fld_456688a1c11149dbaf8f401cda618609
+modified: 1674134878752
+created: 1674134816721
+url: "{{ _.mssegmentlineaccrrRedis
+  }}/MS/SVC/ServiceSpecCharacteristic/MSSeSpChaSegmentLineAccRR/V1/getAccountIn\
+  fo"
+name: getAccountInfo
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7dc0f84a251945889d3609bf56a8f4af
+    name: phone
+    value: "6013931838"
+    description: ""
+  - id: pair_68cc2765b354466eba94c935e2ddce87
+    name: account'
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1674134816721
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
